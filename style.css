@@ -1,0 +1,72 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Nunito', sans-serif; /* Une police moderne */
+    background-color: #f8f9fa; /* Une couleur de fond légère */
+}
+
+.card {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Une ombre douce */
+    border: none; /* Retirer la bordure par défaut des cartes Bootstrap */
+}
+
+.btn-primary {
+    background-color: #0056b3; /* Utiliser une couleur primaire du logo */
+    border-color: #0056b3;
+}
+
+.btn-primary:hover {
+    background-color: #004494;
+    border-color: #004494;
+}
+
+/* Ajouter des styles pour les inputs pour améliorer le focus ou l'interaction */
+input:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.25);
+}
+
+/* Adapter le style du formulaire et des boutons pour correspondre au branding */
+.form-label {
+    color: #333; /* Un gris foncé pour une meilleure lisibilité */
+}
+
+/* Assurez-vous que le logo s'affiche correctement sur tous les appareils */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.form-select {
+    margin-top: 20px;
+    padding: .5rem 1rem;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/* Ajoutez du style au focus pour améliorer l'accessibilité et l'interaction */
+.form-select:focus {
+    border-color: #0056b3;
+    box-shadow: 0 0 0 0.2rem rgba(0, 86, 179, 0.25);
+}
+
+
+.card-body {
+    transition: all 0.3s ease;
+}
+
+.card-body:hover {
+    background-color: #f8f9fa; /* Couleur légère au survol pour indiquer que l'élément est interactif */
+}
+
+/* Style pour la liste des étudiants inscrits */
+.card .card-body p {
+    font-size: 0.9rem;
+    color: #555;
+}
